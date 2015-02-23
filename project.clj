@@ -13,5 +13,5 @@
              "Can-Redefine-Classes"    "true"
              "Can-Retransform-Classes" "true"}
 
-  :dependencies [[net.bytebuddy/byte-buddy-agent "0.5.2"]
-                 [net.bytebuddy/byte-buddy "0.5.2"]])
+  :dependencies [[net.bytebuddy/byte-buddy-agent "0.6-SNAPSHOT"]
+                 [net.bytebuddy/byte-buddy "0.6-SNAPSHOT"]])

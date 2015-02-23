@@ -26,11 +26,11 @@
 
 (defn -main
   [& args]
-  (compile 'introspect-tests.core) 
-  (println (c))
-  (println (sqr 2))
-  (println (sum 2 1))
-  (println (simple-sum 1 2))
-  (println (some-crazy-function 1 2))
-  (println (some-crazy-function "asd" "bsd"))
+  (compile 'introspect-tests.core)
+  (c)
+  (sqr 2)
+  (sum 2 1)
+  (simple-sum 1 2)
+  (some-crazy-function 1 2)
+  (some-crazy-function "asd" "bsd")
   )
