@@ -20,6 +20,7 @@ public class MainTest {
                 ).transform(new AgentBuilder.Transformer() {
             @Override
             public DynamicType.Builder<?> transform(DynamicType.Builder<?> builder) {
+							System.out.println(builder);
                 return builder
                         .method(ElementMatchers.any())
                         .intercept(MethodDelegation.to(LogInterceptor.class).andThen(SuperMethodCall.INSTANCE));
